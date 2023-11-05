@@ -1,12 +1,16 @@
 <script setup lang="ts">
 import { RouterLink } from "vue-router";
 import { ref } from 'vue';
+import { useMouse } from '../composables/useMouse'
 const userID = ref(1);
-
+const { x, y} = useMouse()
 </script>
 
 <template>
+
   <div class="container">
+  <div>pageX: {{ x }}</div>
+  <div>pageY: {{ y }}</div>
     <p class="display-6 pt-4">Home Page</p>
      <div class="d-flex gap-3 my-4 align-items-center">
       <label for="userID">UserID</label>
