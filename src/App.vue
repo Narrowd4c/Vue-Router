@@ -14,7 +14,8 @@ provide('count', { count, increment })
 
 <template>
   <HeadComp></HeadComp>
-  <LoadingComp></LoadingComp>
+  <!-- <LoadingComp></LoadingComp> -->
   <RouterView></RouterView>
+  <RouterView name="hello"></RouterView>
 </template>
 

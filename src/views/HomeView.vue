@@ -11,6 +11,7 @@ const { x, y} = useMouse()
   <div class="container">
   <div>pageX: {{ x }}</div>
   <div>pageY: {{ y }}</div>
+  <RouterLink to="/alabama" >alabama</RouterLink>
     <p class="display-6 pt-4">Home Page</p>
      <div class="d-flex gap-3 my-4 align-items-center">
       <label for="userID">UserID</label>

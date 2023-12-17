@@ -3,5 +3,5 @@
 </script>
 
 <template>
-    <div>Not Found Page</div>
+    <div>Not Found Page {{ $route.params.pathMatch }}</div>
 </template>

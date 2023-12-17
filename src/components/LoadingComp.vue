@@ -61,7 +61,6 @@ setTimeout(() => {
 
 function toggle() { 
   isTrue.value = false
-  console.log('mococo')
   setTimeout(() => {
   isTrue.value = true;
 }, 4000);
